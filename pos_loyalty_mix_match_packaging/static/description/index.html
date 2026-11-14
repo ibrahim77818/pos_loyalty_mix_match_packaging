@@ -1,0 +1,131 @@
+<!-- Odoo Apps description page for pos_loyalty_mix_match_packaging (Odoo 20.0). Inline styles only: apps.odoo.com strips <style> and <script> blocks. -->
+<section style="max-width:1120px;margin:0 auto;padding:0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;color:#2b2b33;">
+
+<!-- ============================== HERO ============================== -->
+<div style="background:linear-gradient(120deg,#017E84 0%,#3d6b78 45%,#714B67 100%);border-radius:18px;padding:48px 40px 40px;color:#ffffff;margin-top:12px;">
+  <div style="font-size:13px;letter-spacing:2px;text-transform:uppercase;opacity:.85;margin-bottom:10px;">Point of Sale &middot; Promotions &middot; Packaging</div>
+  <h1 style="font-size:40px;line-height:1.15;font-weight:700;margin:0 0 14px;color:#ffffff;">POS Mix &amp; Match &ndash; Packaging &amp; UoM Bridge</h1>
+  <p style="font-size:19px;line-height:1.55;max-width:760px;margin:0 0 24px;color:#ffffff;opacity:.95;">Mix &amp; Match and Bundle programs counted in <b>boxes, cases or any unit of measure</b>: &ldquo;any 3 boxes, cheapest box free&rdquo;. Installed automatically when both apps are present; neither is modified.</p>
+  <div>
+    <span style="display:inline-block;border:1px solid rgba(255,255,255,.7);border-radius:20px;padding:6px 14px;margin:0 8px 8px 0;font-size:14px;">Odoo 20.0</span>
+    <span style="display:inline-block;border:1px solid rgba(255,255,255,.7);border-radius:20px;padding:6px 14px;margin:0 8px 8px 0;font-size:14px;">Community &amp; Enterprise</span>
+    <span style="display:inline-block;border:1px solid rgba(255,255,255,.7);border-radius:20px;padding:6px 14px;margin:0 8px 8px 0;font-size:14px;">Auto-install bridge</span>
+    <span style="display:inline-block;border:1px solid rgba(255,255,255,.7);border-radius:20px;padding:6px 14px;margin:0 8px 8px 0;font-size:14px;">Technical name: pos_loyalty_mix_match_packaging</span>
+    <span style="display:inline-block;border:1px solid rgba(255,255,255,.7);border-radius:20px;padding:6px 14px;margin:0 8px 8px 0;font-size:14px;">OPL-1</span>
+  </div>
+</div>
+
+<!-- ============================== KEY NUMBERS ============================== -->
+<div style="display:flex;flex-wrap:wrap;margin:28px -8px 8px;">
+  <div style="flex:1 1 220px;margin:8px;background:#f6f4f6;border-radius:14px;padding:20px 22px;"><div style="font-size:30px;font-weight:700;color:#714B67;">3 ways to count</div><div style="font-size:15px;color:#555;">Units, Unit of Measure or Package, per rule</div></div>
+  <div style="flex:1 1 220px;margin:8px;background:#eef6f6;border-radius:14px;padding:20px 22px;"><div style="font-size:30px;font-weight:700;color:#017E84;">0 setup</div><div style="font-size:15px;color:#555;">Installs itself when both apps are installed</div></div>
+  <div style="flex:1 1 220px;margin:8px;background:#f6f4f6;border-radius:14px;padding:20px 22px;"><div style="font-size:30px;font-weight:700;color:#714B67;">1 switch</div><div style="font-size:15px;color:#555;">Same per-POS switch as the packaging apps</div></div>
+  <div style="flex:1 1 220px;margin:8px;background:#eef6f6;border-radius:14px;padding:20px 22px;"><div style="font-size:30px;font-weight:700;color:#017E84;">0 changes</div><div style="font-size:15px;color:#555;">Both apps it connects stay untouched</div></div>
+</div>
+
+<!-- ============================== WHY ============================== -->
+<h2 style="font-size:28px;font-weight:700;margin:40px 0 6px;color:#2b2b33;">Why this module</h2>
+<p style="font-size:16px;color:#555;margin:0 0 18px;">Shops that sell by the box want set promotions by the box too.</p>
+<div style="display:flex;flex-wrap:wrap;margin:0 -10px;">
+  <div style="flex:1 1 440px;margin:10px;border:1px solid #f1d6d6;background:#fff8f8;border-radius:14px;padding:24px 26px;">
+    <h3 style="font-size:19px;font-weight:700;color:#b33939;margin:0 0 12px;">With POS Mix &amp; Match alone</h3>
+    <ul style="font-size:15px;line-height:1.65;margin:0;padding-left:20px;color:#3a3a42;">
+      <li>Sets are counted in <b>product units</b>: &ldquo;3&rdquo; means 3 bottles.</li>
+      <li>&ldquo;Cheapest item free&rdquo; frees <b>one unit</b>.</li>
+      <li>No link with the packaging scanned at the till.</li>
+      <li>No rule for shops where packaging is switched off.</li>
+    </ul>
+  </div>
+  <div style="flex:1 1 440px;margin:10px;border:1px solid #cfe7e7;background:#f4fbfb;border-radius:14px;padding:24px 26px;">
+    <h3 style="font-size:19px;font-weight:700;color:#017E84;margin:0 0 12px;">With this bridge</h3>
+    <ul style="font-size:15px;line-height:1.65;margin:0;padding-left:20px;color:#3a3a42;">
+      <li>The rule&rsquo;s <b>Count by</b> applies: &ldquo;3&rdquo; can mean 3 <b>boxes</b> or 3 <b>dozens</b>.</li>
+      <li>&ldquo;Cheapest item free&rdquo; frees the cheapest <b>box</b>.</li>
+      <li>The package of each line (or a <b>Package Type</b>) is used, as in your loyalty rules.</li>
+      <li><b>Where Packaging Is Off</b>: count units, or the rule doesn&rsquo;t apply.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============================== HOW IT WORKS ============================== -->
+<h2 style="font-size:28px;font-weight:700;margin:40px 0 6px;color:#2b2b33;">How it works</h2>
+<p style="font-size:16px;color:#555;margin:0 0 18px;">Nothing to configure on the bridge itself.</p>
+<div style="display:flex;flex-wrap:wrap;margin:0 -8px;">
+  <div style="flex:1 1 200px;margin:8px;border-radius:12px;border:1px solid #e3dde2;padding:18px;"><div style="width:34px;height:34px;border-radius:50%;background:#714B67;color:#fff;font-weight:700;text-align:center;line-height:34px;margin-bottom:10px;">1</div><div style="font-weight:700;margin-bottom:4px;">Install both apps</div><div style="font-size:14px;color:#555;"><b>POS Mix &amp; Match and Bundle Promotions</b> and <b>POS Loyalty Packaging &amp; UoM</b>; this bridge follows.</div></div>
+  <div style="flex:1 1 200px;margin:8px;border-radius:12px;border:1px solid #e3dde2;padding:18px;"><div style="width:34px;height:34px;border-radius:50%;background:#714B67;color:#fff;font-weight:700;text-align:center;line-height:34px;margin-bottom:10px;">2</div><div style="font-weight:700;margin-bottom:4px;">Switch packaging on</div><div style="font-size:14px;color:#555;">Packaging scanning and <b>Pricelists by Package</b> in the POS settings, as for the packaging apps.</div></div>
+  <div style="flex:1 1 200px;margin:8px;border-radius:12px;border:1px solid #e3dde2;padding:18px;"><div style="width:34px;height:34px;border-radius:50%;background:#714B67;color:#fff;font-weight:700;text-align:center;line-height:34px;margin-bottom:10px;">3</div><div style="font-weight:700;margin-bottom:4px;">Count the rule</div><div style="font-size:14px;color:#555;">On a Mix &amp; Match or Bundle rule: <b>Count by</b> Package (or Unit of Measure).</div></div>
+  <div style="flex:1 1 200px;margin:8px;border-radius:12px;border:1px solid #cfe7e7;background:#f4fbfb;padding:18px;"><div style="width:34px;height:34px;border-radius:50%;background:#017E84;color:#fff;font-weight:700;text-align:center;line-height:34px;margin-bottom:10px;">4</div><div style="font-weight:700;margin-bottom:4px;">Sell boxes</div><div style="font-weight:400;font-size:14px;color:#555;">Sets and rewards are counted in boxes at the till.</div></div>
+</div>
+
+<!-- ============================== FEATURES ============================== -->
+<h2 style="font-size:28px;font-weight:700;margin:40px 0 6px;color:#2b2b33;">Features</h2>
+<p style="font-size:16px;color:#555;margin:0 0 6px;">Screenshots use demo data: Water 330 ml (2.00) and Sparkling Water 330 ml (2.50), both sold in a Box of 6 (package type Box), prices in SAR with 15% VAT included.</p>
+
+<div style="margin:44px 0 0;">
+  <div style="font-size:13px;font-weight:700;color:#017E84;letter-spacing:1px;text-transform:uppercase;">Feature 1</div>
+  <h3 style="font-size:23px;font-weight:700;margin:4px 0 8px;">Count a set in packages</h3>
+  <p style="font-size:15px;line-height:1.6;color:#555;margin:0 0 14px;">The rule &ldquo;any 3, cheapest free&rdquo; with <b>Count by</b> Package and <b>Package Type</b> Box: a set is 3 boxes of 6. <b>Where Packaging Is Off</b> decides what shops without packaging do. The fractional package rounding is hidden on these rules: sets always count packages exactly.</p>
+  <img src="mm_06_rule_package.png" alt="Mix and Match rule counted by Package, package type Box, minimum quantity 3" style="width:100%;max-width:1000px;border:1px solid #e1e1e6;border-radius:10px;box-shadow:0 6px 24px rgba(30,30,60,.10);"/>
+</div>
+
+<div style="margin:44px 0 0;">
+  <div style="font-size:13px;font-weight:700;color:#017E84;letter-spacing:1px;text-transform:uppercase;">Feature 2</div>
+  <h3 style="font-size:23px;font-weight:700;margin:4px 0 8px;">The cheapest box is free</h3>
+  <p style="font-size:15px;line-height:1.6;color:#555;margin:0 0 14px;">2 boxes of Water (12 &times; 2.00) and 1 box of Sparkling Water (6 &times; 2.50) complete the set. The cheapest box, Water at 12.00, is free.</p>
+  <img src="mm_07_pos_package.png" alt="POS order with 3 boxes and a -12.00 cheapest box free line" style="width:100%;border:1px solid #e1e1e6;border-radius:10px;box-shadow:0 6px 24px rgba(30,30,60,.10);"/>
+  <div style="font-size:13px;color:#777;margin:6px 0 0;">17 bottles are not enough: 3 boxes means 18 units, counted across both products.</div>
+</div>
+
+<div style="margin:44px 0 0;">
+  <div style="font-size:13px;font-weight:700;color:#017E84;letter-spacing:1px;text-transform:uppercase;">Feature 3</div>
+  <h3 style="font-size:23px;font-weight:700;margin:4px 0 8px;">Works for both program types and all rewards</h3>
+  <p style="font-size:15px;line-height:1.6;color:#555;margin:0 0 14px;">Each bundle part can count in its own way (a case of drinks plus one unit of snacks). % discount, fixed price per set and cheapest item(s) free all follow the counting of the rules.</p>
+  <img src="mm_01_program_bundle.png" alt="Cross-Category Bundle program form" style="width:100%;border:1px solid #e1e1e6;border-radius:10px;box-shadow:0 6px 24px rgba(30,30,60,.10);"/>
+</div>
+
+<!-- ============================== CORNER CASES ============================== -->
+<h2 style="font-size:28px;font-weight:700;margin:40px 0 6px;color:#2b2b33;">Built for real-world corner cases</h2>
+<p style="font-size:16px;color:#555;margin:0 0 18px;">The bridge reuses the counting engine of POS Loyalty Packaging &amp; UoM.</p>
+<div style="display:flex;flex-wrap:wrap;margin:0 -8px;font-size:15px;line-height:1.55;">
+  <div style="flex:1 1 320px;margin:8px;padding:16px 18px;border:1px solid #e8e8ee;border-radius:12px;"><b>Loose units and boxes in one order</b><br/><span style="color:#555;">6 loose bottles count as one box of 6; a line can be split between sets.</span></div>
+  <div style="flex:1 1 320px;margin:8px;padding:16px 18px;border:1px solid #e8e8ee;border-radius:12px;"><b>Product without that package</b><br/><span style="color:#555;">Not counted for a package rule, never guessed.</span></div>
+  <div style="flex:1 1 320px;margin:8px;padding:16px 18px;border:1px solid #e8e8ee;border-radius:12px;"><b>Different units of measure</b><br/><span style="color:#555;">Converted within the same UoM category; other categories are refused.</span></div>
+  <div style="flex:1 1 320px;margin:8px;padding:16px 18px;border:1px solid #e8e8ee;border-radius:12px;"><b>Shop with packaging off</b><br/><span style="color:#555;"><b>Count units (standard)</b> or <b>Rule doesn&rsquo;t apply</b> (a bundle with such a part gives no reward there).</span></div>
+  <div style="flex:1 1 320px;margin:8px;padding:16px 18px;border:1px solid #e8e8ee;border-radius:12px;"><b>Standard programs</b><br/><span style="color:#555;">Promotions, loyalty and buy X get Y keep the behaviour of POS Loyalty Packaging &amp; UoM.</span></div>
+  <div style="flex:1 1 320px;margin:8px;padding:16px 18px;border:1px solid #e8e8ee;border-radius:12px;"><b>Offline</b><br/><span style="color:#555;">Packagings are loaded with the session: no server call while selling.</span></div>
+</div>
+
+<!-- ============================== SECURITY ============================== -->
+<h2 style="font-size:28px;font-weight:700;margin:40px 0 6px;color:#2b2b33;">Security</h2>
+<p style="font-size:16px;color:#555;margin:0 0 18px;">No new groups, models or record rules.</p>
+<table style="width:100%;border-collapse:collapse;font-size:15px;">
+  <thead><tr style="background:#714B67;color:#fff;"><th style="text-align:left;padding:10px 14px;">Who</th><th style="text-align:left;padding:10px 14px;">Can</th></tr></thead>
+  <tbody>
+    <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 14px;">Point of Sale / Administrator</td><td style="padding:10px 14px;">Set <b>Count by</b> on the rules in <b>Discount &amp; Loyalty</b></td></tr>
+    <tr style="border-bottom:1px solid #eee;background:#fafafa;"><td style="padding:10px 14px;">Point of Sale / User</td><td style="padding:10px 14px;">Gets the rewards at the till</td></tr>
+  </tbody>
+</table>
+
+<!-- ============================== TECHNICAL ============================== -->
+<h2 style="font-size:28px;font-weight:700;margin:40px 0 6px;color:#2b2b33;">Technical details</h2>
+<table style="width:100%;border-collapse:collapse;font-size:15px;">
+  <tbody>
+    <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 14px;width:240px;color:#777;">Odoo version</td><td style="padding:10px 14px;">20.0, Community and Enterprise</td></tr>
+    <tr style="border-bottom:1px solid #eee;background:#fafafa;"><td style="padding:10px 14px;width:240px;color:#777;">Depends on</td><td style="padding:10px 14px;"><code>pos_loyalty_mix_match</code>, <code>pos_loyalty_packaging_uom</code> (which brings <code>pos_order_line_packaging_visuals</code> and <code>sales_pricelist_pos_advanced</code>)</td></tr>
+    <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 14px;width:240px;color:#777;">Installation</td><td style="padding:10px 14px;">Automatic (<code>auto_install</code>)</td></tr>
+    <tr style="border-bottom:1px solid #eee;background:#fafafa;"><td style="padding:10px 14px;width:240px;color:#777;">Menus / Settings</td><td style="padding:10px 14px;">None of its own; the rule form in Point of Sale &rsaquo; Products &rsaquo; Discount &amp; Loyalty</td></tr>
+    <tr style="border-bottom:1px solid #eee;"><td style="padding:10px 14px;width:240px;color:#777;">Code</td><td style="padding:10px 14px;">One POS extension, one view, and the same counting on the server (Odoo 20 recomputes loyalty points when an order is synced)</td></tr>
+    <tr style="border-bottom:1px solid #eee;background:#fafafa;"><td style="padding:10px 14px;width:240px;color:#777;">License</td><td style="padding:10px 14px;">OPL-1</td></tr>
+  </tbody>
+</table>
+
+<!-- ============================== CONTACT ============================== -->
+<div style="margin:52px 0 40px;background:linear-gradient(120deg,#714B67 0%,#017E84 100%);border-radius:18px;padding:36px 40px;color:#fff;">
+  <h2 style="font-size:26px;font-weight:700;margin:0 0 8px;color:#fff;">Support &amp; customization</h2>
+  <p style="font-size:16px;line-height:1.6;margin:0 0 20px;color:#fff;opacity:.95;">Questions, a demo, or an adaptation to your own process? Get in touch.</p>
+  <a href="mailto:ibrahim.yahiah@gmail.com" style="display:inline-block;background:#fff;color:#714B67;font-weight:700;text-decoration:none;border-radius:8px;padding:12px 22px;margin:0 12px 10px 0;">&#9993;&nbsp; ibrahim.yahiah@gmail.com</a>
+  <a href="https://www.linkedin.com/in/ibrahim-yahia" target="_blank" rel="noopener" style="display:inline-block;border:2px solid #fff;color:#fff;font-weight:700;text-decoration:none;border-radius:8px;padding:10px 22px;margin:0 0 10px 0;">LinkedIn: Ibrahim Yahia</a>
+  <p style="font-size:13px;margin:14px 0 0;opacity:.8;color:#fff;">Author: Ibrahim Yahia &middot; License: OPL-1</p>
+</div>
+
+</section>
