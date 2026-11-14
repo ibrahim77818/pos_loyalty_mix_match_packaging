@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Sets count packages exactly: the fractional package rounding is not used. -->
+    <record id="loyalty_rule_view_form_mix_match_pkg" model="ir.ui.view">
+        <field name="name">loyalty.rule.view.form.inherit.pos.loyalty.mix.match.pkg</field>
+        <field name="model">loyalty.rule</field>
+        <field name="inherit_id" ref="pos_loyalty_packaging_uom.loyalty_rule_view_form_pkg_uom"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='pkg_rounding']" position="attributes">
+                <attribute name="attrs">{'invisible': ['|', ('pkg_count_by', '=', 'units'), ('program_type', 'in', ('mm_bundle', 'mm_pick'))]}</attribute>
+            </xpath>
+            <xpath expr="//field[@name='pkg_rounding_scope']" position="attributes">
+                <attribute name="attrs">{'invisible': ['|', '|', ('pkg_count_by', '=', 'units'), ('pkg_rounding', '=', 'exact'), ('program_type', 'in', ('mm_bundle', 'mm_pick'))]}</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
